@@ -5,12 +5,12 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
 
-    [SerializeField] List<Block> path;
+    [SerializeField] List<Waypoints> path;
 
     // Start is called before the first frame update
     void Start()
     {
-        foreach (Block waypoint in path)
+        foreach (Waypoints waypoint in path)
         {
             print(waypoint);
         }
