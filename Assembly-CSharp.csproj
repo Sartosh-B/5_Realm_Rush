@@ -55,7 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EditorSnap.cs" />
+     <Compile Include="Assets\Block.cs" />
+     <Compile Include="Assets\CubeEditor.cs" />
+     <Compile Include="Assets\EnemyMovement.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -590,23 +592,11 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/programowanie/Unity kurs/5_Realm_Rush/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
